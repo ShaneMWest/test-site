@@ -15,6 +15,6 @@ NOTE: Most of the formatting is per the directions from Mozilla web dev tutorial
 
 Shane West <[shane.martin.west@gmail.com](mailto:shane.martin.west@gmail.com)>
 
-## Disclaimer
+## Other Credits
 
 Formatting of this readme partially lifted from Michoel Chaikin's "NetSuite Field Explorer" Chrome Extension readme file.
