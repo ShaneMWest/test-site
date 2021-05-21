@@ -1,14 +1,10 @@
-/*
-First script
-Still learning
-*/
+let myImage = document.querySelector('img');
 
-let myVariable;
-myVariable = 'Bob';
-
-//Comment for practice
-let myVar2 = 'Andy';
-
-
-const myHeading = document.querySelector('h1');
-myHeading.textContent = 'Hello world!';
+myImage.onclick = function(){
+    let mySrc = myImage.getAttribute('src');
+    if(mySrc === 'images/clearance-items-banner-1.jpg'){
+        myImage.setAttribute('src','images/ATLASHeader.jpeg');
+    } else {
+        myImage.setAttribute('src','images/clearance-items-banner-1.jpg');
+    }
+}
